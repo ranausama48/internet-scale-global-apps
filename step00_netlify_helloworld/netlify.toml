@@ -1,0 +1,3 @@
+base = "hello-world/"
+
+publish = "hello-world/public"
