@@ -1,4 +1,4 @@
-# Advanced Multicloud Serverless Application Development using Netlify, AWS, Google Cloud, Azure, FaunaDB, MongoDB Atlas and other best of the breed serverless technologies in baby steps. 
+# Multicloud Global Internet-Scale JAMstack Serverless Apps using Netlify, AWS, Google Cloud, Azure, FaunaDB, MongoDB Atlas and other best of the breed Serverless and Cloud Native Technologies in Baby Steps
 
 In this repository we will learn to develop full stack web and mobile global and internet scale applications using the Fourth Generation Application Model with the latest state of the art multi-cloud technologies. 
 
