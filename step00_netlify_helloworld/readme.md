@@ -12,7 +12,7 @@ npm install -g netlify-cli
 
 [Read this Document](https://cli.netlify.com/netlify-dev/)
 
-Create project folder named "Step01_netlify_helloworld"
+Create project folder named "Step00_netlify_helloworld"
 
 Change to project directory:
 
