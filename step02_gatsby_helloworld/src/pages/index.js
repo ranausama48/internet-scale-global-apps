@@ -1,5 +1,5 @@
 import React from "react"
 
 export default function Home() {
-  return <div>Gatsby Hello world! hosted on Netlify</div>
+  return <div>Hello world with Gatsby from Netlify!</div>
 }

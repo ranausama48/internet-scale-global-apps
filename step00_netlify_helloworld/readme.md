@@ -1,47 +1,61 @@
-[Get yourself motivated to learn Gatsby.js](https://www.cnbc.com/2019/12/02/10-hottest-tech-skills-that-could-pay-off-most-in-2020-says-new-report.html)
+[Install Node.js on Your Machine](https://nodejs.org/en/download/)
 
-Signup on Netlify:
+[Signup on Netlify](https://app.netlify.com/signup)
 
-https://app.netlify.com/signup
+Install Globally:
 
-Install:
+npm install -g yarn
 
-npm install -g gatsby-cli
+npm install -g netlify-cli 
 
-npm install netlify-cli -g
+[Watch this video](https://www.youtube.com/watch?v=RL_gtVZ_79Q&feature=youtu.be&t=812)
 
-Create Gatsby Site:
+[Read this Document](https://cli.netlify.com/netlify-dev/)
 
-gatsby new hello-world https://github.com/gatsbyjs/gatsby-starter-hello-world
+Create project folder named "Step01_netlify_helloworld"
 
-cd hello-world
+Change to project directory:
 
-gatsby develop
+cd step00_netlify_helloworld
 
-Once you have completed development:
+Create hello world index.html file in public folder in the poject directory.
 
-gatsby build
+You can also Start the Local Server:
 
-Login to Netlify:
+netlify dev
+
+Open in the Browser:
+
+http://localhost:8888
+
+Login to Netlify on Local Machine to start the publishing process:
 
 netlify login
 
-To publish on Netlify as draft (You should publish the "public" directory created by Gatsby.js build directory):
-
-netlify deploy
-
-To publish the final version:
+To publish on Netlify:
 
 netlify deploy --prod
 
+Notice that the tool has created .netlify directory in your project folder.
 
-References:
+Now the site is published and you can copy the link given by the tool in the browser.
 
-[Get Started with Netlify CLI](https://docs.netlify.com/cli/get-started/)
+Add .gitignore so that .netlify directory not pushed to github
 
-[Gatsby Tutorial](https://www.gatsbyjs.org/tutorial/)
+Bug: Currently there is some bug in the netlify dev tool, once the .netlify folder is created the dev tool stops working.
 
-[Deploying on Netlify](https://www.gatsbyjs.org/docs/deploying-to-netlify/)
+Alternatives to Netlify:
+
+[Google Firebase](https://firebase.google.com/)
+
+[Vercel](https://vercel.com/)
+
+[Battle of the Jamstack platforms — Netlify, Vercel, AWS](https://www.lambrospetrou.com/articles/battle-of-jamstack-platforms-netlify-vercel-aws/)
+
+Must Read:
+
+[New to JAMstack? Everything You Need to Know to Get Started](https://snipcart.com/blog/jamstack)
+
 
 
 

@@ -1,3 +1,48 @@
+Install Globally:
+
+npm install -g gatsby-cli
+
+Create Gatsby.js Project:
+
+gatsby new step002_gatsby_helloworld https://github.com/gatsbyjs/gatsby-starter-hello-world
+
+Change to project directory:
+
+cd step002_gatsby_helloworld
+
+Start the Local Server:
+
+netlify dev
+
+Open the Browser:
+
+http://localhost:8888
+
+
+Create a netlify.toml file with publish directory public and build command
+
+yarn build
+
+Login to Netlify on Local Machine to start the publishing process (not required if you have already logged in in step 00):
+
+netlify login
+
+To publish on Netlify:
+
+netlify deploy --prod
+
+Notice that the tool has created .netlify directory in your project folder.
+
+Now the site is published and you can copy the link given by the tool in the browser.
+
+Add /.netlify in .gitignore before pushing to public repo
+
+
+
+
+
+
+
 <!-- AUTO-GENERATED-CONTENT:START (STARTER) -->
 <p align="center">
   <a href="https://www.gatsbyjs.org">
