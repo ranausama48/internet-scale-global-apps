@@ -1,21 +1,25 @@
-import React, {useEffect, useState} from "react"
+import React, {useState, useEffect} from "react"
 
 export default function Home() {
-//  const [mydata, setData] = useState("Default Hello");
-/** 
+  const [mydata, setData] = useState("Default Hello");
+
   useEffect(() => {
     console.log("useEffect Called");
-    fetch(`/.netlify/functions/hello?name=from Serverless Function`)
+    fetch(`/.netlify/functions/hello`)
       .then(response => response.json())
       .then(data => {
         setData(data);
         console.log("Data: " + JSON.stringify(data));
         
       });
-  }, []);*/
+  }, []);
+
+
+
+
 
   return <div>
-    <div>The message from netlify function:</div>
-    
+    <div>Hello world with Gatsby from Netlify!</div>
+    <div>{mydata.message}</div>
     </div>
 }

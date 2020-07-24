@@ -1,20 +1,14 @@
-Copy Step 02 code into Step 04
+Repeat Step 04
 
-[Read](https://joshwcomeau.com/gatsby/using-netlify-functions-with-gatsby/)
+Now we will add a dependency package in the netlify function
 
-[Demo](https://gumroad.com/library)
+cd functions/hello
 
-[Watch video](https://www.youtube.com/watch?v=RL_gtVZ_79Q&feature=youtu.be&t=1376)
+npm init
 
-[Read](https://www.gatsbyjs.org/blog/2018-12-17-turning-the-static-dynamic/)
+npm i --save random-name
 
-Add a functions folder declaration in netlify.toml file
-
-Give the following command to create a function:
-
-netlify functions:create hello
-
-You can also Start the Local Server:
+Update hello.js code
 
 netlify dev
 
